@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+      /* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige; /* Dark background for a sleek look */
+    color: white; /* Ensures text visibility on dark background */
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #222; /* Dark navbar background */
+    padding: 0.8rem 1.5rem;
+    border-bottom: 3px solid #ff0000; /* Red accent for Audi brand */
+}
+
+.navbar-brand {
+    color: black; /* Adjusted for contrast */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    margin-right: 0.5rem;
+    border-radius: 5px; /* Rounded logo edges */
+}
+
+.nav-link {
+    color: black; /* White text for links */
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    text-transform: capitalize;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff0000; /* Audi red for hover effect */
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    border: 1px solid gray; /* Slightly visible border */
+}
+
+/* Main Image */
+img {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 10px; /* Subtle rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+    border: 3px solid #ddd; /* Adds depth with a border */
+}
+
+/* Button Styling */
+button {
+    border: none;
+    background-color: #0d6efd; /* Primary blue color */
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Added shadow for 3D effect */
+}
+
+button:hover {
+    background-color: #ff0000; /* Audi accent red */
+    transform: scale(1.1); /* Slight zoom effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Enhanced hover shadow */
+}
+
+button h2 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+button + button {
+    margin-left: 1rem; /* Spacing between buttons */
+}
+
+/* Layout Adjustments */
+br + button {
+    margin-top: 1.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    img {
+        width: 90%;
+        height: auto;
+    }
+
+    button {
+        display: block;
+        width: 90%; /* Full-width on small screens */
+        margin: 0.5rem auto;
+    }
+
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+
+    .nav-link {
+        font-size: 0.9rem; /* Slightly smaller text for compact view */
+    }
+}
+
+footer {
+            background-color: #232323;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9rem;
+            position:relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="audilogo.png" alt=" Audi Logo" width="90px" height="70" class="d-inline-block align-text-middle">
+              Audi
+            </a>
+          </div>
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="Models.html">Models</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="UsedCars.html">Used Cars</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="CustomerArea.html">Customer area</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Innovation.html">Innovation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="QuickLinks.html">Quick links</a>
+              </li>
+              <li>
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    <br>
+    <img src="Mainaudi.png" width="1151px" height="400" alt="">
+    <br>
+    <br>
+    <button> <h2> Audi Owners </h2> </button> &nbsp;&nbsp; <button> <h2> Audi Club Rewards </h2> </button> &nbsp;&nbsp; <button> <h2> Audi Service </h2> </button> <br> <br> <br> <button> <h2> myAudi Connect </h2> </button> &nbsp;&nbsp; <button> <h2> Discover Audi from Home </h2> </button> &nbsp;&nbsp; <button> <h2> Sustainability </h2> </button>
+      <br> <br>
+    <footer>
+      <p>© 2024 Audi. All Rights Reserved.</p>
+  </footer>
+
+
+  </body>
+</html>
